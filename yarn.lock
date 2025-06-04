@@ -13493,15 +13493,15 @@ node-addon-api@^6.1.0:
   resolved "https://registry.yarnpkg.com/node-addon-api/-/node-addon-api-6.1.0.tgz#ac8470034e58e67d0c6f1204a18ae6995d9c0d76"
   integrity sha512-+eawOlIgy680F0kBzPUNFhMZGtJ1YmqM6l4+Crf4IkImjYrO/mqPwRMh352g23uIaQKFItcQ64I7KMaJxHgAVA==
 
-node-addon-api@^7.1.0:
-  version "7.1.1"
-  resolved "https://registry.yarnpkg.com/node-addon-api/-/node-addon-api-7.1.1.tgz#1aba6693b0f255258a049d621329329322aad558"
-  integrity sha512-5m3bsyrjFWE1xf7nz7YXdN4udnVtXK6/Yfgn5qnahL6bCkf2yKt4k3nuTKAtT4r3IG8JNR2ncsIMdZuAzJjHQQ==
-
 node-addon-api@^8.0.0:
   version "8.1.0"
   resolved "https://registry.yarnpkg.com/node-addon-api/-/node-addon-api-8.1.0.tgz#55a573685dd4bd053f189cffa4e6332d2b1f1645"
   integrity sha512-yBY+qqWSv3dWKGODD6OGE6GnTX7Q2r+4+DfpqxHSHh8x0B4EKP9+wVGLS6U/AM1vxSNNmUEuIV5EGhYwPpfOwQ==
+
+node-addon-api@^8.2.1:
+  version "8.3.1"
+  resolved "https://registry.yarnpkg.com/node-addon-api/-/node-addon-api-8.3.1.tgz#53bc8a4f8dbde3de787b9828059da94ba9fd4eed"
+  integrity sha512-lytcDEdxKjGJPTLEfW4mYMigRezMlyJY8W4wxJK8zE533Jlb8L8dRuObJFWg2P+AuOIxoCgKF+2Oq4d4Zd0OUA==
 
 node-emoji@^1.11.0:
   version "1.11.0"
@@ -13545,6 +13545,11 @@ node-gyp-build@^4.8.0:
   version "4.8.2"
   resolved "https://registry.yarnpkg.com/node-gyp-build/-/node-gyp-build-4.8.2.tgz#4f802b71c1ab2ca16af830e6c1ea7dd1ad9496fa"
   integrity sha512-IRUxE4BVsHWXkV/SFOut4qTlagw2aM8T5/vnTsmrHJvVoKueJHRc/JaFND7QDDc61kLYUJ6qlZM3sqTSyx2dTw==
+
+node-gyp-build@^4.8.2:
+  version "4.8.4"
+  resolved "https://registry.yarnpkg.com/node-gyp-build/-/node-gyp-build-4.8.4.tgz#8a70ee85464ae52327772a90d66c6077a900cfc8"
+  integrity sha512-LA4ZjwlnUblHVgq0oBF3Jl/6h/Nvs5fzBLwdEF4nuxnFdsfajde4WfxtJr3CaiH+F6ewcIB/q4jQ4UzPyid+CQ==
 
 node-gyp@9.4.0:
   version "9.4.0"
@@ -14842,14 +14847,14 @@ psl@^1.1.28, psl@^1.1.33:
   resolved "https://registry.yarnpkg.com/psl/-/psl-1.9.0.tgz#d0df2a137f00794565fcaf3b2c00cd09f8d5a5a7"
   integrity sha512-E/ZsdU4HLs/68gYzgGTkMicWTLPdAftJLfJFlLUAAKZGkStNU72sZjT66SnMDVOfOWY/YAoiD7Jxa9iHvngcag==
 
-pug_html_locator_js@1.0.47:
-  version "1.0.47"
-  resolved "https://registry.yarnpkg.com/pug_html_locator_js/-/pug_html_locator_js-1.0.47.tgz#e2d63a9af3dd29434df241afa6f337933871864c"
-  integrity sha512-akZWz/ZWaD5xTv6tl9hSkI4nfU26CIpHiF2UKTHMTyMAzIg+MEBPmSv4j3aNr041TxafU6g059mmBkrvPVwWRQ==
+pug_html_locator_js@1.0.48:
+  version "1.0.48"
+  resolved "https://registry.yarnpkg.com/pug_html_locator_js/-/pug_html_locator_js-1.0.48.tgz#89a758358a53f0f152ca7946b654817fe7c8af15"
+  integrity sha512-h+bYmgq0s58B9oQTGHn5LWsk3I2/HwQ66LFZMop+mXAYnwzWLdn8PMVdM8cA0tJQsIF0WdKrhJbw8WkL3YrJzg==
   dependencies:
     node-gyp "^9.4.0"
     tree-sitter "^0.21.0"
-    tree-sitter-pug "1.0.11"
+    tree-sitter-pug "1.0.12"
 
 pump@^3.0.0:
   version "3.0.0"
@@ -17227,13 +17232,13 @@ tree-kill@1.2.2:
   resolved "https://registry.yarnpkg.com/tree-kill/-/tree-kill-1.2.2.tgz#4ca09a9092c88b73a7cdc5e8a01b507b0790a0cc"
   integrity sha512-L0Orpi8qGpRG//Nd+H90vFB+3iHnue1zSSGmNOOCh1GLJ7rUKVwV2HvijphGQS2UmhUZewS9VgvxYIdgr+fG1A==
 
-tree-sitter-pug@1.0.11:
-  version "1.0.11"
-  resolved "https://registry.yarnpkg.com/tree-sitter-pug/-/tree-sitter-pug-1.0.11.tgz#e9111872a19c2f1c78b1d57d389f66cd05ce553b"
-  integrity sha512-cVf9ho6fjphzqjCy0/+XRatgjqi0hBgG6XXWiLWn8xrY4vorxrKXKMu5Hi2ynh1hvjjYO9lp4Tot5qFp04w1DA==
+tree-sitter-pug@1.0.12:
+  version "1.0.12"
+  resolved "https://registry.yarnpkg.com/tree-sitter-pug/-/tree-sitter-pug-1.0.12.tgz#89101421e28ef55bf98b060e8dc1c14ec2553c36"
+  integrity sha512-q1PVopWSO4Tl4aw9WbPs5mnotOeT7l6eC4v9kU6JPu22qwh+dnPVRv5erYqtnDiY3yiXH1fqeTyrf4qtJjTyHA==
   dependencies:
-    node-addon-api "^7.1.0"
-    node-gyp-build "^4.8.0"
+    node-addon-api "^8.2.1"
+    node-gyp-build "^4.8.2"
 
 tree-sitter@^0.21.0:
   version "0.21.1"
